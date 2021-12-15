@@ -1,0 +1,20 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\signup.vue",
+    "chunkName": "pages/signup"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

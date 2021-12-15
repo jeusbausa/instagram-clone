@@ -1,0 +1,20 @@
+{
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Posts": {
+    "description": "Auto imported from components/Posts.vue"
+  },
+  "Stories": {
+    "description": "Auto imported from components/Stories.vue"
+  }
+}
