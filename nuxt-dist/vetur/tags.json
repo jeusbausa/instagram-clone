@@ -8,6 +8,9 @@
   "Menu": {
     "description": "Auto imported from components/Menu.vue"
   },
+  "NewPost": {
+    "description": "Auto imported from components/NewPost.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },

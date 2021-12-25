@@ -10,7 +10,7 @@ const setAccessToken = async (req, res) => {
 		const tokenHeader64 = token.split('.')[0]
 		const header = JSON.parse(Buffer.from(tokenHeader64, 'base64').toString('ascii'))
 		const decoded = jwt.verify(token, publicKeys[header.kid], { algorithms: ['RS256'] })
-		console.log('decoded', decoded)
+
 		return res
 			.cookie('fb_token', token, { maxAge: decoded.exp, httpOnly: true, sameSite: 'strict' })
 			.status(200)

@@ -21,12 +21,20 @@ export const actions = {
 				username: credentials.username,
 				email: credentials.email,
 				fullName: credentials.fullName,
+				avatar: null,
+				createdAt: Date.now(),
 			})
 			const url = await $nuxt.$fire.storage
 				.ref()
 				.child(`users/${result.user.uid}.jpg`)
 				.put(await blobImage.blob())
 			await result.user.updateProfile({ displayName: credentials.fullName, photoURL: await url.ref.getDownloadURL() })
+			await $nuxt.$fire.firestore
+				.collection('users')
+				.doc(result.user.uid)
+				.update({
+					avatar: await url.ref.getDownloadURL(),
+				})
 			await dispatch('login', credentials)
 			$nuxt.$router.push('/')
 		} catch (error) {

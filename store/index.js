@@ -11,8 +11,9 @@ export const actions = {
 			await app.$fire.auth.signOut()
 			return
 		}
+
 		const decoded = jwt.decode(token)
-		console.log('decoded store', decoded)
+
 		if (decoded) {
 			commit('auth/SET_USER', { uid: decoded.user_id, email: decoded.email, name: decoded.name, avatar: decoded.picture })
 		}

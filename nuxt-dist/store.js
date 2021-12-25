@@ -20,6 +20,7 @@ let store = {};
   store.modules = store.modules || {}
 
   resolveStoreModules(require('..\\store\\auth.js'), 'auth.js')
+  resolveStoreModules(require('..\\store\\post.js'), 'post.js')
 
   // If the environment supports hot reloading...
 
@@ -28,6 +29,7 @@ let store = {};
     module.hot.accept([
       '..\\store\\auth.js',
       '..\\store\\index.js',
+      '..\\store\\post.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()
