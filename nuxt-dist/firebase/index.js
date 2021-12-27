@@ -4,7 +4,7 @@ import authService from './service.auth.js'
 import firestoreService from './service.firestore.js'
 import storageService from './service.storage.js'
 
-const appConfig = {"apiKey":"AIzaSyB8qJGTOTVbWhNQEF5zWocpbALNwoht5dQ","authDomain":"instagram-clone-tailwindcss.firebaseapp.com","projectId":"instagram-clone-tailwindcss","storageBucket":"instagram-clone-tailwindcss.appspot.com","messagingSenderId":"1050694802461","appId":"1:1050694802461:web:d96eab54257be9a2fdfaf4","measurementId":"G-N4QP5TLCCB"}
+const appConfig = {"apiKey":"AIzaSyB8qJGTOTVbWhNQEF5zWocpbALNwoht5dQ","authDomain":"instagram-clone-tailwindcss.firebaseapp.com","projectId":"instagram-clone-tailwindcss","storageBucket":"instagram-clone-tailwindcss.appspot.com","messagingSenderId":"1050694802461","appId":"1:1050694802461:web:d96eab54257be9a2fdfaf4","measurementId":"G-N4QP5TLCCB","databaseURL":"https:\u002F\u002Finstagram-clone-tailwindcss-default-rtdb.asia-southeast1.firebasedatabase.app\u002F"}
 
 export default async (ctx, inject) => {
   const { firebase, session } = await createApp(appConfig, ctx)

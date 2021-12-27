@@ -13,11 +13,11 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_3af5cc32 from 'nuxt_plugin_plugin_3af5cc32' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_serviceauthssrserver_01521b10 from 'nuxt_plugin_serviceauthssrserver_01521b10' // Source: .\\firebase\\service.auth.ssr-server.js (mode: 'server')
-import nuxt_plugin_index_02dac571 from 'nuxt_plugin_index_02dac571' // Source: .\\firebase\\index.js (mode: 'all')
-import nuxt_plugin_serviceauthinitialize_4f712506 from 'nuxt_plugin_serviceauthinitialize_4f712506' // Source: .\\firebase\\service.auth.initialize.js (mode: 'all')
-import nuxt_plugin_axios_035ef08a from 'nuxt_plugin_axios_035ef08a' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_75221ab2 from 'nuxt_plugin_plugin_75221ab2' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_serviceauthssrserver_372618f8 from 'nuxt_plugin_serviceauthssrserver_372618f8' // Source: ./firebase/service.auth.ssr-server.js (mode: 'server')
+import nuxt_plugin_index_689e8bf1 from 'nuxt_plugin_index_689e8bf1' // Source: ./firebase/index.js (mode: 'all')
+import nuxt_plugin_serviceauthinitialize_f17f68f4 from 'nuxt_plugin_serviceauthinitialize_f17f68f4' // Source: ./firebase/service.auth.initialize.js (mode: 'all')
+import nuxt_plugin_axios_4ca2a03d from 'nuxt_plugin_axios_4ca2a03d' // Source: ./axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -214,24 +214,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_3af5cc32 === 'function') {
-    await nuxt_plugin_plugin_3af5cc32(app.context, inject)
+  if (typeof nuxt_plugin_plugin_75221ab2 === 'function') {
+    await nuxt_plugin_plugin_75221ab2(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_serviceauthssrserver_01521b10 === 'function') {
-    await nuxt_plugin_serviceauthssrserver_01521b10(app.context, inject)
+  if (process.server && typeof nuxt_plugin_serviceauthssrserver_372618f8 === 'function') {
+    await nuxt_plugin_serviceauthssrserver_372618f8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_index_02dac571 === 'function') {
-    await nuxt_plugin_index_02dac571(app.context, inject)
+  if (typeof nuxt_plugin_index_689e8bf1 === 'function') {
+    await nuxt_plugin_index_689e8bf1(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_serviceauthinitialize_4f712506 === 'function') {
-    await nuxt_plugin_serviceauthinitialize_4f712506(app.context, inject)
+  if (typeof nuxt_plugin_serviceauthinitialize_f17f68f4 === 'function') {
+    await nuxt_plugin_serviceauthinitialize_f17f68f4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_035ef08a === 'function') {
-    await nuxt_plugin_axios_035ef08a(app.context, inject)
+  if (typeof nuxt_plugin_axios_4ca2a03d === 'function') {
+    await nuxt_plugin_axios_4ca2a03d(app.context, inject)
   }
 
   // Lock enablePreview in context

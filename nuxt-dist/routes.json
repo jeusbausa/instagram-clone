@@ -2,19 +2,22 @@
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "/home/je/Desktop/instagram-clone/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_b655f6ce"
   },
   {
     "name": "signup",
     "path": "/signup",
-    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\signup.vue",
-    "chunkName": "pages/signup"
+    "component": "/home/je/Desktop/instagram-clone/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "_name": "_42257b98"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Jeus\\\\Desktop\\\\dev\\\\instagram-clone-nuxt-firebase\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/je/Desktop/instagram-clone/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_49a53cfc"
   }
 ]

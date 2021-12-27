@@ -1,10 +1,10 @@
-export { default as Card } from '../..\\components\\Card.vue'
-export { default as Header } from '../..\\components\\Header.vue'
-export { default as Menu } from '../..\\components\\Menu.vue'
-export { default as NewPost } from '../..\\components\\NewPost.vue'
-export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
-export { default as Posts } from '../..\\components\\Posts.vue'
-export { default as Stories } from '../..\\components\\Stories.vue'
+export { default as Card } from '../../components/Card.vue'
+export { default as Header } from '../../components/Header.vue'
+export { default as Menu } from '../../components/Menu.vue'
+export { default as NewPost } from '../../components/NewPost.vue'
+export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
+export { default as Posts } from '../../components/Posts.vue'
+export { default as Stories } from '../../components/Stories.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
